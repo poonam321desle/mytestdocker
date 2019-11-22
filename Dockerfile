@@ -1,4 +1,3 @@
 FROM ubuntu
-CMD sudo yum install httpd -y
-CMD sudo service httpd start
-ADD ./index1.html /var/www/html/
+CMD sudo yum install apache -y
+CMD sudo service apache start
